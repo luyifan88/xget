@@ -293,7 +293,7 @@ async function handleRequest(request, env, ctx) {
 
     // Redirect root path or invalid platforms to GitHub repository
     if (url.pathname === '/' || url.pathname === '') {
-      const HOME_PAGE_URL = 'https://github.com/xixu-me/Xget';
+      const HOME_PAGE_URL = 'https://xuc.xuexi.su/';
       return Response.redirect(HOME_PAGE_URL, 302);
     }
 
